@@ -1,0 +1,50 @@
+@import '../../../scss/variables';
+
+.sectionComments{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+}
+
+.sectionComments_container{
+    background-color: $dark_Blue_testimonial;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.sectionComments_container:first-child::before {
+    content: '';
+    background-image: url('../../assets/images/bg-quotes.png');
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    z-index: 0;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+}
+
+.sectionComments_personContainer>img{
+    width: 10%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.sectionComments_personContainer--name{
+    float: left;
+    line-height: initial;
+}
+
+.sectionComments_personContainer--ocupation{
+    float:left;
+    line-height: initial;
+}
+
+.sectionComments_container--parraf{
+    margin-bottom: 10px;
+    line-height: 18px;
+}

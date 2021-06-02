@@ -1,0 +1,81 @@
+@import './variables';
+
+html{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: $white;
+    
+}
+
+body{
+    background: $dark_Blue_intro;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    background-color: $dark_Blue_main;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section{
+    margin-top: 140px;
+}
+
+footer{
+    padding: 200px 90px ;
+}
+
+.sectionComments{
+    padding-bottom: 300px;
+}
+
+@media(min-width:320px)and(max-width:720px){
+    section{
+        margin-top: 0;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-bottom: 100px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .sectionComments{
+        padding-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+

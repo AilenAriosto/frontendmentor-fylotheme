@@ -1,0 +1,28 @@
+@import '../../../scss/variables';
+
+.sectionSlide  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background: $dark_Blue_intro url("../images/bg-curvy-mobile.svg") bottom
+      no-repeat;
+    background-size: 100% 360px;
+}
+  
+.sectionSlide--image {
+    width: 742px;
+    height: 538px;
+}
+  
+.sectionSlide--title {
+    width: 742px;
+    margin: 46px;
+}
+  
+.sectionSlide--parraf {
+    width: 742px;
+    font-size: 22px;
+    padding: 0 30px;
+}

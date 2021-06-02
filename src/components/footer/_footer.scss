@@ -1,0 +1,75 @@
+@import '../../scss/variables';
+
+@import '../../scss/buttons';
+
+.footer{
+    background-color: $dark_Blue_footer;
+}
+
+.footer_contact--img{
+    margin-right: 20px;
+    width: 14px;
+}
+
+.footer_links,
+.footer_social,
+.footer_links_listOne,
+.footer_links_listTwo {
+    margin-top: 50px;
+}
+
+.footer_links_listOne,
+.footer_links_listTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links_listOne>a,
+.footer_links_listTwo>a{
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.footer_social_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_social_container--icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 8px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding-top:250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+.footer_container{
+    margin-top: 50px;
+}
+
+.footer_contact_ubication, 
+.footer_contact_phone,
+.footer_contact_mail{
+    display: flex;
+}
+
+.footer_contact_ubication, 
+.footer_contact_phone{
+    margin-bottom: 20px;
+}
+
+.footer_contact_ubication{
+    margin-right: 40px;
+}

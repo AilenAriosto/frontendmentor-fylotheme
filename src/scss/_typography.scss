@@ -1,0 +1,64 @@
+@import './variables';
+
+
+body{
+    color: $white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+header{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    // font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: $white;
+}
+
+p{
+    line-height: 28px;
+}
+
+.sectionComments_personContainer--name{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+}
+
+.sectionComments_personContainer--ocupation{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+}
+
+@media(min-width:320px)and(max-width:720px){
+    h1{
+        font-size: 1.6rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h1,h2,h3,h4,h5,h6{
+        line-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    p{
+        line-height: 16px;
+    }
+    a{
+        font-size: 12px;
+    }
+}

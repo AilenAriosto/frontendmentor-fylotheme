@@ -1,0 +1,24 @@
+@import '../../../scss/variables';
+
+.sectionSlide{
+    background:url("../images/bg-curvy-mobile.svg") bottom,linear-gradient(0deg, #181f2b 40%, #1c2431 42%);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 47px 30px 100px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sectionSlide--image{
+    width: 100%;
+}
+
+.header_text{
+    position: relative;
+    // bottom: 90px;
+    background-color: $dark_Blue_intro;
+}

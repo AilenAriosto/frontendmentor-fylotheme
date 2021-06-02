@@ -1,0 +1,41 @@
+.sectionProductive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 100px;
+    align-items: center;
+}
+  
+.sectionProductive_container--img {
+    height: 460px;
+    width: auto;
+    margin-right: 45px;
+
+}
+
+.sectionProductive_text :not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.sectionProductive_text--title{
+    margin-right: 100px;
+}
+
+
+  
+.sectionProductive_text--link {
+    justify-content: space-around;
+    color: $cyan;
+    border-bottom: 1px solid $cyan;
+    padding-bottom: 6px;
+    text-decoration: none;
+
+    & img{
+        vertical-align: middle;
+        margin-left: 3px;
+    }
+}
+
+.sectionProductive_text--link:hover{
+    text-decoration: none;
+}
+

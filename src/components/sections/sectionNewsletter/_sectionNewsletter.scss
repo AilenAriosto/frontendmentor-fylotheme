@@ -1,0 +1,42 @@
+@import '../../../scss/variables';
+
+@import '../../../scss/buttons';
+
+.sectionNewsletter{
+    background-color: $dark_Blue_footer;
+    background-color: $dark_Blue_intro;
+    text-align: center;
+    color: $white;
+    border-radius: 15px;
+    box-shadow: 3px 0px 10px 2px black;
+    padding: 30px;
+    position: relative;
+    top: 150px;
+    margin: 0 30px;
+}
+
+.sectionNewsletter_container_email{
+    display: grid;
+    grid-gap: 25px;
+}
+
+.sectionNewsletter_container_email--input{
+    background: $white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 20px 20px;
+    border-radius: 45px;
+    width: 100%;
+    border: none;
+
+    &::placeholder{
+        color: lightgray;
+    }
+}
+
+
+.validate{
+    color: red;
+    display: flex;
+    align-self: flex-start;
+}
