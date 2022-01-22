@@ -1,6 +1,4 @@
 import "./assets/scss/styles.scss";
-import "./assets/scss/styles_tablet.scss";
-import "./assets/scss/styles_desktop.scss";
 
 import "./assets/images/bg-curvy-desktop.svg";
 import "./assets/images/bg-curvy-mobile.svg";
@@ -27,4 +25,3 @@ import "./assets/images/profile-3.jpg";
 import "./assets/images/twitter.svg";
 
 import "./assets/js/brands.js";
-import "./components/sections/sectionNewsletter/sectionNewsletter.js";

@@ -1,8 +1,24 @@
-
 .sectionServices{
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 70px;
 }
 
+@media(min-width:200px) and (max-width: 1022px){
+    .sectionServices{
+        grid-template-columns: 1fr;
+        grid-gap: 70px;
+    }
+}
+
+ @media(min-width: 1023px){
+    .sectionServices{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 94px 150px;
+        margin: 130px 0;
+        padding: 0 280px;
+    }
+    
+ }

@@ -1,24 +1,52 @@
-@import '../../../scss/variables';
+@media(min-width:200px) and (max-width:1022px){
+    .sectionSlide{
+        background:url("../images/bg-curvy-mobile.svg") bottom,linear-gradient(0deg, #181f2b 40%, #1c2431 42%);
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        padding: 47px 30px 100px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sectionSlide--image{
+        width: 100%;
+    }
 
-.sectionSlide{
-    background:url("../images/bg-curvy-mobile.svg") bottom,linear-gradient(0deg, #181f2b 40%, #1c2431 42%);
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    padding: 47px 30px 100px 30px;
-    display: flex;
-    flex-direction: column;
+    .header_text{
+        position: relative;
+        background-color: $dark_Blue_intro;
+    }
+
 }
 
+@media(min-width:1023px){
 
-
-.sectionSlide--image{
-    width: 100%;
-}
-
-.header_text{
-    position: relative;
-    // bottom: 90px;
-    background-color: $dark_Blue_intro;
+    .sectionSlide  {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        background: $dark_Blue_intro url("../images/bg-curvy-mobile.svg") bottom
+          no-repeat;
+        background-size: 100% 360px;
+    }
+      
+    .sectionSlide--image {
+        width: 742px;
+        height: 538px;
+    }
+      
+    .sectionSlide--title {
+        width: 742px;
+        margin: 46px;
+    }
+      
+    .sectionSlide--parraf {
+        width: 742px;
+        font-size: 22px;
+        padding: 0 30px;
+    }
 }

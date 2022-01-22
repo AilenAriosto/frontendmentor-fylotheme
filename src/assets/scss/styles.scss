@@ -15,35 +15,37 @@
 @import '../../scss/_buttons.scss';
 
 
-
-// Sections
-
 // Header
 
 @import '../../components/header/_header.scss';
 
-// Section Slide
 
-@import '../../components/sections/sectionSlide/sectionSlide';
+// Sections
+
+    // Section Slide
+
+    @import '../../components/sections/sectionSlide/sectionSlide';
 
 
-// Section Services
+    // Section Services
 
-@import '../../components/sections/sectionServices/_sectionServices.scss';
+    @import '../../components/sections/sectionServices/_sectionServices.scss';
 
-// Section Productive
+    // Section Productive
 
-@import '../../components/sections/sectionProductive/_sectionProductive.scss';
+    @import '../../components/sections/sectionProductive/_sectionProductive.scss';
 
-// Section Comments
 
-@import '../../components/sections/sectionComments/sectionComments';
+    // Section Comments
 
-// Section Newsletter
+    @import '../../components/sections/sectionComments/sectionComments';
 
-@import '../../components/sections/sectionNewsletter/sectionNewsletter';
+    
+    // Section Newsletter
+
+    @import '../../components/sections/sectionNewsletter/sectionNewsletter';
+
 
 // Footer
 
 @import '../../components/footer/_footer.scss';
-
